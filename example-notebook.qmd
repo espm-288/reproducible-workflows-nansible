@@ -2,7 +2,7 @@
 title: "example-notebook.qmd"
 format: html
 editor: visual
-author: Manu Nimmala
+author: Manu Nimmalad
 ---
 
 ## Quarto
