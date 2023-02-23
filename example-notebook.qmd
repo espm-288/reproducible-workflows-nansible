@@ -2,6 +2,7 @@
 title: "example-notebook.qmd"
 format: html
 editor: visual
+author: Manu Nimmala
 ---
 
 ## Quarto
@@ -27,6 +28,6 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 ```{r}
 library(tidyverse)
-
+library(ggplot2)
 mtcars |> ggplot(aes(cyl, mpg)) + geom_point()
 ```
